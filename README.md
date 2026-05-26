@@ -18,9 +18,9 @@ The project implements and calibrates a Dupire local volatility model using mark
 ## Repository structure
 
 - `run_local_volatility_project.m` is the main script used to run the full project
-- `calibrator_2.m` calibrates the local volatility matrix through an iterative fixed-point procedure :contentReference[oaicite:0]{index=0}
-- `model_volatility_2.m` computes model implied volatilities from the calibrated local volatility surface :contentReference[oaicite:1]{index=1}
-- `solve_dupire_2.m` solves the Dupire partial differential equation using finite-difference schemes including Crank-Nicolson :contentReference[oaicite:2]{index=2}
+- `calibrator.m` calibrates the local volatility matrix through an iterative fixed-point procedure :contentReference[oaicite:0]{index=0}
+- `model_volatility.m` computes model implied volatilities from the calibrated local volatility surface :contentReference[oaicite:1]{index=1}
+- `solve_dupire.m` solves the Dupire partial differential equation using finite-difference schemes including Crank-Nicolson :contentReference[oaicite:2]{index=2}
 - `LocalVolatilityModel_Report.pdf` contains the final report and discussion of the results
 - Additional MATLAB functions are used for simulation, interpolation and pricing routines
 
